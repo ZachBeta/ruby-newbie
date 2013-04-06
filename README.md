@@ -1,10 +1,18 @@
-# List of Ideas
+# List of Completed Ideas
 
 Simple websites locally
-* Hello World website in Sinatra
-* "Is it friday yet?" website clone
-* Serve erb templates
-* Serve erb templates with twitter bootstrap
+* `sinatra_hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
+    * Get a basic sinatra webapp running
+* `sinatra_friday` "Is it friday yet?" website clone
+    * Get a basic sinatra web app running
+    * Use some ruby date functions
+* `sinatra_template` Serve erb templates
+    * Use erb templates with sinatra
+* `sinatra_bootstrap` Serve erb templates with twitter bootstrap
+    * Use erb templates with css and js assets
+
+# TO DO
+
 * Parameterized page, form and post
 * Serve a `$ fortune` style quote on a website
 
