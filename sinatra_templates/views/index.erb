@@ -3,5 +3,14 @@
   <body>
     <h1>Hello world!</h1>
     <p>This templating thing is pretty cool.</p>
+    <p>PS... it's totally <%= Time.now.strftime('%A') %>.</p>
+    <p>
+      Which is
+      <% if Time.now.friday? %>
+        definitely Friday!
+      <% else %>
+        NOT Friday :-(
+      <% end %>
+    </p>
   </body>
 </html>
