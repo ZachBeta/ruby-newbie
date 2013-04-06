@@ -4,7 +4,6 @@ Simple websites locally
 * Hello World website in Sinatra
 * "Is it friday yet?" website clone
 * Serve a `$ fortune` style quote on a website
-* Hello World website with a google map on the page
 
 More advanced websites
 * Deploy a simple site to heroku
@@ -15,6 +14,7 @@ More advanced websites
 * Parse a website for data and display on own site
 * Create a wordcram for trending tweets
 * Parse data for an infographic
+* Hello World website with a google map on the page
 
 # TODO
 
