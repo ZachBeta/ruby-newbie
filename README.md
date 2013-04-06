@@ -3,6 +3,8 @@
 Simple websites locally
 * Hello World website in Sinatra
 * "Is it friday yet?" website clone
+* Serve erb
+* Parameterized page
 * Serve a `$ fortune` style quote on a website
 
 More advanced websites
