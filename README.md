@@ -23,6 +23,7 @@ Simple websites locally
 Beginner
 * Serve a CSV to a webpage
 * Manipulate a CSV
+* Blocks - Count to x
 * Blocks - Howdy! Howdy! Howdy! - find youtube link from toy story - [Woody's Hat - YouTube](http://www.youtube.com/watch?v=G-I3UXqDhIo)
 * Send CSV data as json
 * Image resizer using imagemagick
