@@ -32,11 +32,11 @@ Intermediate
 * Authentication with actual hashing of password
     as soon as they start, collect a user name and password (hash password with some salt)
 * Actual ORM
+* Parse a CSV and display information in a table on a website
 
 
 # Ideas For More advanced websites
 
-* Parse a CSV and display information in a table on a website
 * Parse multiple CSVs and join them in memory
 * Parse a website like wikipedia for information
 * Parse a local `.gov` site for data
@@ -44,7 +44,3 @@ Intermediate
 * Create a wordcram for trending tweets
 * Parse data for an infographic
 * Hello World website with a google map on the page
-
-# TODO
-
-* Sort list into beginner/intermediate
