@@ -1,5 +1,7 @@
 require 'sinatra'
+require 'i_heart_quotes'
 
 get '/' do
-  "Sup?"
+  fortune = IHeartQuotes::Client.random
+  fortune.quote
 end
