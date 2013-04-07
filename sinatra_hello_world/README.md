@@ -4,3 +4,8 @@ Commands to run
     bundle
     ruby hello_world.rb
     open http://localhost:4567
+
+Things to try
+* have the page display "Howdy!"
+* have the page display the time
+* have the page display a formatted time
