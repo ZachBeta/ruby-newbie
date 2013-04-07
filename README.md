@@ -13,11 +13,29 @@ Simple websites locally
 
 # TO DO
 
-* Parameterized page, form and post
-* Serve a `$ fortune` style quote on a website
+Beginner
+* Parameterized page, form and post - single field form
+* Parameterized page, form and post - multiple field form
+* Serve a `$ fortune` style quote on a website - `gem i_heart_quotes`
+* Serve a CSV to a webpage
+* Manipulate a CSV
+* Blocks - Howdy! Howdy! Howdy! - find youtube link from toy story - [Woody's Hat - YouTube](http://www.youtube.com/watch?v=G-I3UXqDhIo)
+* Use a hash?
+* Send CSV data as json
+* Image resizer using imagemagick
+* Input 2 text files, run a diff server side
+* Minimalist authentication - if name exists in "database" say hello to username
+    as soon as they start running, hold that username in memory
+* UUID in the url
 
-More advanced websites
-* Deploy a simple site to heroku
+Intermediate
+* Authentication with actual hashing of password
+    as soon as they start, collect a user name and password (hash password with some salt)
+* Actual ORM
+
+
+# Ideas For More advanced websites
+
 * Parse a CSV and display information in a table on a website
 * Parse multiple CSVs and join them in memory
 * Parse a website like wikipedia for information
