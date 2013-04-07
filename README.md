@@ -1,6 +1,6 @@
-# List of Completed Ideas
+# Sample projects
 
-Simple websites locally
+Simple websites to explore Web Development with Ruby
 * `sinatra_bootstrap` Serve erb templates with twitter bootstrap
     * Use erb templates with css and js assets
 * `sinatra_form`
