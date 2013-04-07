@@ -1,6 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    httparty (0.10.2)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    i_heart_quotes (0.2.1)
+      httparty
+    multi_json (1.7.2)
+    multi_xml (0.5.3)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -14,4 +21,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  i_heart_quotes
   sinatra
