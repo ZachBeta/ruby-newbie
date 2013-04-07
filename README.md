@@ -1,20 +1,20 @@
 # List of Completed Ideas
 
 Simple websites locally
-* `sinatra_hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
-    * Get a basic sinatra webapp running
-* `sinatra_friday` "Is it friday yet?" website clone
-    * Use some ruby date functions in a sinatra site
-* `sinatra_template` Serve erb templates
-    * Use erb templates with sinatra
 * `sinatra_bootstrap` Serve erb templates with twitter bootstrap
     * Use erb templates with css and js assets
-* `sinatra_hello_heroku`
-    * Deploy a simple sinatra app to a real web server
 * `sinatra_form`
     * Handle simple form behavior with sinatra
+* `sinatra_friday` "Is it friday yet?" website clone
+    * Use some ruby date functions in a sinatra site
+* `sinatra_hello_heroku`
+    * Deploy a simple sinatra app to a real web server
+* `sinatra_hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
+    * Get a basic sinatra webapp running
 * `sinatra_quotes`
     * Use the `i_heart_quotes` gem to display a random "quote of the day" page
+* `sinatra_template` Serve erb templates
+    * Use erb templates with sinatra
 
 # TO DO
 
