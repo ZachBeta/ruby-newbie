@@ -15,6 +15,9 @@ Simple websites locally
     * Use the `i_heart_quotes` gem to display a random "quote of the day" page
 * `sinatra_template` Serve erb templates
     * Use erb templates with sinatra
+* `sinatra_with_reload`
+    * Dynamically reload the page so you don't need to restart the app
+
 
 # TO DO
 
