@@ -1,9 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    listen (0.7.3)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
+    rerun (0.8.0)
+      listen
     sinatra (1.4.2)
       rack (~> 1.5, >= 1.5.2)
       rack-protection (~> 1.4)
@@ -14,4 +17,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  rerun
   sinatra

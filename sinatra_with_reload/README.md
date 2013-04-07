@@ -1,11 +1,12 @@
 Commands to run
 
-    cd /path/to/ruby_newbie/sinatra_hello_world
+    cd /path/to/ruby_newbie/sinatra_with_reload
     bundle
-    ruby hello_world.rb
+    rerun 'ruby hello_world.rb'
     open http://localhost:4567
 
 Things to try
-* have the page display "Howdy!"
-* have the page display the time
-* have the page display a formatted time
+* Change your sinatra app and see it reload without having to restart it
+
+Notes:
+* Taken from [Sinatra: Frequently Asked Questions](http://www.sinatrarb.com/faq.html#reloading)
