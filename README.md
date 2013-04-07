@@ -18,16 +18,12 @@ Simple websites locally
 * `sinatra_with_reload`
     * Dynamically reload the page so you don't need to restart the app
 
-
 # TO DO
 
 Beginner
-* Gem install rerun
-* Serve a `$ fortune` style quote on a website - `gem i_heart_quotes`
 * Serve a CSV to a webpage
 * Manipulate a CSV
 * Blocks - Howdy! Howdy! Howdy! - find youtube link from toy story - [Woody's Hat - YouTube](http://www.youtube.com/watch?v=G-I3UXqDhIo)
-* Use a hash?
 * Send CSV data as json
 * Image resizer using imagemagick
 * Input 2 text files, run a diff server side
