@@ -1,6 +1,7 @@
 Commands to run
 
     cd /path/to/ruby_newbie/sinatra_quotes
+    gem install bundler --no-ri --no-rdoc
     bundle
     ruby hello_world.rb
     open http://localhost:4567

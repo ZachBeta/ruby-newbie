@@ -1,6 +1,7 @@
 Commands to run
 
     cd /path/to/ruby_newbie/sinatra_friday
+    gem install bundler --no-ri --no-rdoc
     bundle
     ruby friday.rb
     open http://localhost:4567
