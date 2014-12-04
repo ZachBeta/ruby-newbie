@@ -1,7 +1,9 @@
 # New Here?
 
 So you're very new to Ruby? Good thing you found us!
-We're going to take you on an ADVENTURE!
+
+*We're going to take you on an ADVENTURE!*
+
 ![Adventure Time!](/adventure_time.gif)
 
 This project was started to provide puzzles for people pondering programming.
@@ -10,8 +12,7 @@ It's also a beautiful language :-)
 
 ## How to get this project on your machine
 
-If you're new to GitHub we recommend using one of the links on the right hand side of this page
-`Download ZIP`
+If you're new to GitHub we recommend using one of the links on the right hand side of this page: `Download ZIP`
 
 Then Unzip into your favorite directory.
 
