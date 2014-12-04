@@ -2,7 +2,7 @@
 
 So you're very new to Ruby? Good thing you found us!
 We're going to take you on an ADVENTURE!
-![/adventure_time.gif](Adventure Time!)
+![Adventure Time!](/adventure_time.gif)
 
 This project was started to provide puzzles for people pondering programming.
 We found that Ruby was pretty welcoming and provides some great tools to get started in web development.
