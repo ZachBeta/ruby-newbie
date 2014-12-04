@@ -1,4 +1,29 @@
-# Sample projects
+# New Here?
+
+So you're very new to Ruby? Good thing you found us!
+We're going to take you on an ADVENTURE!
+(insert adventure time gif here)
+
+This project was started to provide puzzles for people pondering programming.
+We found that Ruby was pretty welcoming and provides some great tools to get started in web development.
+It's also a beautiful language :-)
+
+## How to get this project on your machine
+
+If you're new to GitHub we recommend using one of the links on the right hand side of this page
+`Download ZIP`
+
+Then Unzip into your favorite directory.
+
+## How do I work on it
+
+Open it in your editor of choice. If you don't have a preferred editor, we like to recommend [Sublime Text](http://www.sublimetext.com/) to beginners.
+
+## How do I run it?
+
+Each README will explain how to open and run the smaller applications.
+
+# Some Samples
 
 Simple websites to explore Web Development with Ruby
 * `sinatra_bootstrap` Serve erb templates with twitter bootstrap
@@ -6,7 +31,7 @@ Simple websites to explore Web Development with Ruby
 * `sinatra_form`
     * Handle simple form behavior with sinatra
 * `sinatra_friday` "Is it friday yet?" website clone
-    * Use some ruby date functions in a sinatra site
+    * Use some Ruby date functions in a sinatra site
 * `sinatra_hello_heroku`
     * Deploy a simple sinatra app to a real web server
 * `sinatra_hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
@@ -17,34 +42,3 @@ Simple websites to explore Web Development with Ruby
     * Use erb templates with sinatra
 * `sinatra_with_reload`
     * Dynamically reload the page so you don't need to restart the app
-
-# TO DO
-
-Beginner
-* Serve a CSV to a webpage
-* Manipulate a CSV
-* Blocks - Count to x
-* Blocks - Howdy! Howdy! Howdy! - find youtube link from toy story - [Woody's Hat - YouTube](http://www.youtube.com/watch?v=G-I3UXqDhIo)
-* Send CSV data as json
-* Image resizer using imagemagick
-* Input 2 text files, run a diff server side
-* Minimalist authentication - if name exists in "database" say hello to username
-    as soon as they start running, hold that username in memory
-* UUID in the url
-
-Intermediate
-* Authentication with actual hashing of password
-    as soon as they start, collect a user name and password (hash password with some salt)
-* Actual ORM
-* Parse a CSV and display information in a table on a website
-
-
-# Ideas For More advanced websites
-
-* Parse multiple CSVs and join them in memory
-* Parse a website like wikipedia for information
-* Parse a local `.gov` site for data
-* Parse a website for data and display on own site
-* Create a wordcram for trending tweets
-* Parse data for an infographic
-* Hello World website with a google map on the page
