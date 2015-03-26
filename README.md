@@ -15,6 +15,7 @@ It's also a beautiful language :-)
 There are two good options.
 
 1: Clone the repo on Cloud9 following instructions similar to [Chapter 1: From zero to deploy | Ruby on Rails Tutorial (3rd Ed.) | Softcover.io](https://www.railstutorial.org/book/beginning#sec-up_and_running)
+
 2: Get everything on your local machine
   * Install ruby similar to [Install Rails | Your Guide for Installing Ruby on Rails](http://installrails.com/)
   * If you're new to GitHub we recommend using one of the links on the right hand side of this page: `Download ZIP` or [download the zip here](https://github.com/ZachBeta/ruby_newbie/archive/master.zip)
