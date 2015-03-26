@@ -1,3 +1,0 @@
-[submodule "sinatra_hello_heroku"]
-	path = sinatra_hello_heroku
-	url = git@github.com:ZachBeta/ruby_newbie_sinatra_hello_heroku.git
