@@ -12,9 +12,13 @@ It's also a beautiful language :-)
 
 ## How to get this project on your machine
 
-If you're new to GitHub we recommend using one of the links on the right hand side of this page: `Download ZIP`
+If you're new to GitHub we recommend using one of the links on the right hand side of this page: `Download ZIP` or [download the zip here](https://github.com/ZachBeta/ruby_newbie/archive/master.zip)
 
 Then Unzip into your favorite directory.
+
+## How do I run it
+
+THE CLOUD!
 
 ## How do I work on it
 
