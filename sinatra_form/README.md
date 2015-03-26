@@ -1,10 +1,8 @@
 Commands to run
 
-    cd /path/to/ruby_newbie/sinatra_form
-    gem install bundler --no-ri --no-rdoc
+    cd sinatra_form
     bundle
-    ruby hello_world.rb
-    open http://localhost:4567
+    ruby hello_world.rb -p $PORT -o $IP
 
 Things to explore:
 * Add more form fields

@@ -1,10 +1,8 @@
 Commands to run
 
-    cd /path/to/ruby_newbie/sinatra_friday
-    gem install bundler --no-ri --no-rdoc
+    cd sinatra_friday
     bundle
-    ruby friday.rb
-    open http://localhost:4567
+    ruby friday.rb -p $PORT -o $IP
 
 Things to try out:
 * Add more urls to test for each day of the week

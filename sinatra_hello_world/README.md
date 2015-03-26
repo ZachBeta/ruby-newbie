@@ -1,10 +1,8 @@
 Commands to run
 
-    cd /path/to/ruby_newbie/sinatra_hello_world
-    gem install bundler --no-ri --no-rdoc
+    cd sinatra_hello_world
     bundle
-    ruby hello_world.rb
-    open http://localhost:4567
+    ruby hello_world.rb -p $PORT -o $IP
 
 Things to try
 * have the page display "Howdy!"

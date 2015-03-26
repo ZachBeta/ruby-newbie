@@ -7,19 +7,35 @@ So you're very new to Ruby? Good thing you found us!
 ![Adventure Time!](/adventure_time.gif)
 
 This project was started to provide puzzles for people pondering programming.
-We found that Ruby was pretty welcoming and provides some great tools to get started in web development.
-It's also a beautiful language :-)
+We found that Ruby was pretty welcoming and provides some great tools to get
+started in web development.  It's also a beautiful language :-)
+
+We are using a tool called [Sinatra](http://www.sinatrarb.com/) for this
+exercise. It is, for our intents, effectively a stripped down version of [Ruby
+on Rails](http://guides.rubyonrails.org/getting_started.html)
 
 ## How do I get everything setup?
 
-There are two good options.
+### USE THE CLOUD HARRY!
 
-1: Clone this repo on Cloud9 `https://github.com/ZachBeta/ruby-newbie` following instructions similar to [Ruby on Rails Tutorial (3rd Ed.)](https://www.railstutorial.org/book/beginning#sec-up_and_running)
+This guide is written against using Cloud9 as it reduces barriers a lot lower
+than a local install. We've followed [Ruby on Rails Tutorial (3rd
+Ed.)](https://www.railstutorial.org/book/beginning#sec-up_and_running) on this
+one.
 
-2: Get everything on your local machine
-  * Install Ruby on Rails and ignore Rails based on this guide: [Install Rails | Your Guide for Installing Ruby on Rails](http://installrails.com/)
+* Set up a Cloud9 Account: [Cloud9 - Your development environment, in the cloud](https://c9.io/)
+* On your dashboard `CREATE A NEW WORKSPACE`
+* Click on `Clone from URL`
+* Paste this url into the `Source URL` field: `https://github.com/ZachBeta/ruby-newbie`
+* Click `Create`
+* Prepare to rock!
+
+### Install stuff on your machine
+
+  * Install Ruby on Rails based on this guide: [Install Rails | Your Guide for Installing Ruby on Rails](http://installrails.com/)
+    * We will not be using Rails right now, but the setup is VERY similar.
   * If you're new to GitHub we recommend using one of the links on the right hand side of this page: `Download ZIP` or [download the zip here](https://github.com/ZachBeta/ruby_newbie/archive/master.zip)
-  * Then Unzip into your favorite directory. We recommend a "workspace" directory in your home directory: `~/workspace`
+  * Unzip into your favorite directory. We recommend a "workspace" directory in your home directory: `~/workspace`
   * Open it in your editor of choice. If you don't have a preferred editor, we like to recommend [Sublime Text](http://www.sublimetext.com/) to beginners.
 
 ## How do I run it?
@@ -60,3 +76,10 @@ Simple websites to explore Web Development with Ruby
   * `sinatra_hello_heroku`
     * Deploy a simple sinatra app to a real web server
 
+
+
+# What if I run into issues?
+
+File a github issue :-)
+
+There's some very common issues people run into that I'll be updating in this README as they arise.

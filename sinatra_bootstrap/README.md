@@ -1,10 +1,8 @@
 Commands to run
 
-    cd /path/to/ruby_newbie/sinatra_bootstrap
-    gem install bundler --no-ri --no-rdoc
+    cd sinatra_bootstrap
     bundle
-    ruby hello_world.rb
-    open http://localhost:4567
+    ruby hello_world.rb -p $PORT -o $IP
 
 Things you should explore:
 * Go to the [Bootstrap](http://twitter.github.io/bootstrap/) documentation

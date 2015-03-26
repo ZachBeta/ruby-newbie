@@ -1,10 +1,8 @@
 Commands to run
 
-    cd /path/to/ruby_newbie/sinatra_with_reload
-    gem install bundler --no-ri --no-rdoc
+    cd sinatra_with_reload
     bundle
-    rerun 'ruby hello_world.rb'
-    open http://localhost:4567
+    rerun 'ruby hello_world.rb' -p $PORT -o $IP
 
 Things to try
 * Change your sinatra app and see it reload without having to restart it
