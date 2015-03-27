@@ -28,7 +28,11 @@ one.
 * Click on `Clone from URL`
 * Paste this url into the `Source URL` field: `https://github.com/ZachBeta/ruby-newbie`
 * Click `Create`
-* Prepare to rock!
+* Click on the `ruby-newbie` project that shows up in the left sidebar.
+* Click on the `start editing` button to open the workspace.
+
+You should now see directory structure on the left with various projects such as `sinatra_bootstrap` and `sinatra_hello_world`.  You can explore the projects by clicking on the various files and directories.
+For more information see the individual project sections below.
 
 ### Install stuff on your machine
 
