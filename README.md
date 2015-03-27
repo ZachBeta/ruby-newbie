@@ -32,6 +32,10 @@ one.
 
 ### Install stuff on your machine
 
+If you are comfortable installing code on your own laptop. Follow the steps in this section
+to get a Ruby development environment running on your own machine.  This is an alternative
+to using the Cloud9 service described in the previous section.
+
   * Install Ruby on Rails based on this guide: [Install Rails | Your Guide for Installing Ruby on Rails](http://installrails.com/)
     * We will not be using Rails right now, but the setup is VERY similar.
   * If you're new to GitHub we recommend using one of the links on the right hand side of this page: `Download ZIP` or [download the zip here](https://github.com/ZachBeta/ruby_newbie/archive/master.zip)
