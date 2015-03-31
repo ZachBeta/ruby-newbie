@@ -48,7 +48,12 @@ to using the Cloud9 service described in the previous section.
 
 ## How do I run it?
 
-Each README will explain how to open and run the smaller applications.
+* Open up the readme of the project you want to run.
+* Each README will explain how to open and run the smaller applications.
+* From your terminal you can run: `cd sinatra_hello_world` to get your terminal into the correct directory.
+* When you want to terminate the application press `ctrl` and `c`. In the context of a terminal this is not "copy" like you may be used to.
+* When you want to navigate up a directory in your terminal you can type `cd ..`.
+* When you want to navigate back to your workspace type `cd ~/workspace`
 
 # Some Samples
 
