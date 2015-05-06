@@ -63,14 +63,11 @@ Simple websites to explore Web Development with Ruby
 * Hello World
   * `sinatra_hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
     * Get a basic sinatra webapp running
-* Reloading the server automatically
-  * `sinatra_with_reload`
-    * Dynamically reload the page so you don't need to restart the app
-
-## HTML
 * HTML template tools
   * `sinatra_template` Serve erb templates
     * Use erb templates with sinatra
+
+## Web Stuff
 * CSS
   * `sinatra_bootstrap` Serve erb templates with twitter bootstrap
     * Use erb templates with css and js assets
@@ -88,6 +85,11 @@ Simple websites to explore Web Development with Ruby
 * Hosting
   * `sinatra_hello_heroku`
     * Deploy a simple sinatra app to a real web server
+
+## Your Mileage May Vary
+* Reloading the server automatically
+  * `sinatra_with_reload`
+    * Dynamically reload the page so you don't need to restart the app
 
 # What if I run into issues?
 
