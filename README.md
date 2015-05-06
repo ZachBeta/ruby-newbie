@@ -34,7 +34,7 @@ one.
 You should now see directory structure on the left with various projects such as `sinatra_bootstrap` and `sinatra_hello_world`.  You can explore the projects by clicking on the various files and directories.
 For more information see the individual project sections below.
 
-### Install stuff on your machine
+### ...Or install stuff on your machine
 
 If you are comfortable installing code on your own laptop. Follow the steps in this section
 to get a Ruby development environment running on your own machine.  This is an alternative
