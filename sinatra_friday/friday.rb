@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/reloader' if development?
 
 get '/' do
   "Is it friday? #{Time.now.friday?}"
