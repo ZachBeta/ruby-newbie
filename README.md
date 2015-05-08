@@ -86,11 +86,6 @@ Simple websites to explore Web Development with Ruby
   * `sinatra_hello_heroku`
     * Deploy a simple sinatra app to a real web server
 
-## Your Mileage May Vary
-* Reloading the server automatically
-  * `sinatra_with_reload`
-    * Dynamically reload the page so you don't need to restart the app
-
 # What if I run into issues?
 
 File a github issue :-)
