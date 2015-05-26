@@ -1,7 +1,7 @@
 Commands to run
 
-    cd sinatra_hello_heroku
     bundle
+    cd sinatra_hello_heroku
     ruby hello_world.rb -p $PORT -o $IP
     heroku create
     git push heroku master

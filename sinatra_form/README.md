@@ -1,7 +1,7 @@
 Commands to run
 
-    cd sinatra_form
     bundle
+    cd sinatra_form
     ruby hello_world.rb -p $PORT -o $IP
 
 Things to explore:

@@ -1,7 +1,7 @@
 Commands to run
 
-    cd sinatra_quotes
     bundle
+    cd sinatra_quotes
     ruby hello_world.rb -p $PORT -o $IP
 
 Things to try:

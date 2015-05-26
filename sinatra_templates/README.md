@@ -1,7 +1,7 @@
 Commands to run
 
-    cd sinatra_templates
     bundle
+    cd sinatra_templates
     ruby hello_world.rb -p $PORT -o $IP
 
 Things to explore:
