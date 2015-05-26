@@ -86,6 +86,11 @@ Simple websites to explore Web Development with Ruby
   * `sinatra_hello_heroku`
     * Deploy a simple sinatra app to a real web server
 
+## Under Development :-)
+* API Calls
+  * `sinatra_gallery`
+    * show a gifs found on giphy
+
 # What if I run into issues?
 
 File a github issue :-)
