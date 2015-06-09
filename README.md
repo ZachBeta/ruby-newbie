@@ -89,7 +89,7 @@ Simple websites to explore Web Development with Ruby
 ## Under Development :-)
 * API Calls
   * `sinatra_gallery`
-    * show a gifs found on giphy
+    * show a gif found on giphy
 
 # What if I run into issues?
 
