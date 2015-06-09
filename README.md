@@ -88,6 +88,9 @@ Simple websites to explore Web Development with Ruby
 * API Calls and image tags
   * `sinatra_gallery`
     * show a gif found on giphy
+* URL shortener
+  * `sinatra_url_shortener`
+    * Make some custom URL shorteners
 
 ## Under Development :-)
 * Making image memes using imagemagick
