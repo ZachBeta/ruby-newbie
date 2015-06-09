@@ -1,7 +1,7 @@
 Commands to run
 
-    cd sinatra_bootstrap
     bundle
+    cd sinatra_bootstrap
     ruby hello_world.rb -p $PORT -o $IP
 
 Things you should explore:

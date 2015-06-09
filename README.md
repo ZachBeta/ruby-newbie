@@ -85,6 +85,15 @@ Simple websites to explore Web Development with Ruby
 * Hosting
   * `sinatra_hello_heroku`
     * Deploy a simple sinatra app to a real web server
+* API Calls and image tags
+  * `sinatra_gallery`
+    * show a gif found on giphy
+* URL shortener
+  * `sinatra_url_shortener`
+    * Make some custom URL shorteners
+
+## Under Development :-)
+* Making image memes using imagemagick
 
 # What if I run into issues?
 

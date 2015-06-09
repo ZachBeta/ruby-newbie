@@ -1,7 +1,7 @@
 Commands to run
 
-    cd sinatra_hello_world
     bundle
+    cd sinatra_hello_world
     ruby hello_world.rb -p $PORT -o $IP
 
 Things to try

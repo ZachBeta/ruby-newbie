@@ -1,0 +1,11 @@
+<html>
+  <head></head>
+  <body>
+    <h1>All sorts of pictures!</h1>
+    <% @image_urls.each do |image_url| %>
+      <p>
+        <img src="<%= image_url %>" />
+      </p>
+    <% end %>
+  </body>
+</html>

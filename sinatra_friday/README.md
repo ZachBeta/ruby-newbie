@@ -1,7 +1,7 @@
 Commands to run
 
-    cd sinatra_friday
     bundle
+    cd sinatra_friday
     ruby friday.rb -p $PORT -o $IP
 
 Things to try out:
