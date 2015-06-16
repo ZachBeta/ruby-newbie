@@ -18,7 +18,7 @@ get '/' do
   erb :form
 end
 
-get '/compare' do
+post '/compare' do
   text_a = params[:text_a]
   text_b = params[:text_b]
 

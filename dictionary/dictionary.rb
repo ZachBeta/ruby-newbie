@@ -29,7 +29,7 @@ get '/add' do
   erb :add
 end
 
-get '/add_word' do
+post '/add_word' do
   dictionary[params[:word]] = { :definition => params[:definition] }
   redirect "/lookup/#{params[:word]}"
 end
