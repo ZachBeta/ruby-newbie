@@ -1,6 +1,18 @@
 require 'sinatra'
 require 'sinatra/reloader' if development?
 
+# Commands to run
+#
+#     bundle
+#     cd sinatra_url_shortener
+#     ruby hello_world.rb -p $PORT -o $IP
+#
+# Things to try
+# * Inserting more defaults
+# * Input a full url and dynamically add it to the shortener (increment a number or an alphanumeric string for the key)
+# * List all the possible shorteners on the index page
+
+
 urls = {
   'blog' => 'http://engineering.continuity.net/using-ruby-and-capybara-to-scrape/',
   'reddit' => 'http://www.reddit.com/r/ruby/comments/1z3oq6/is_ruby_a_good_language_to_start_with/',
