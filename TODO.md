@@ -1,7 +1,4 @@
 # Top of queue to build
-* Add newer projects to the readme
-* Erubis error
-
 * Run an api that provides a timestamp and how many people asked for the api
 * Count occurances of a word, letters, phrases
 * Bill splitting and tip calculating

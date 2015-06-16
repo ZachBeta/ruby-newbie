@@ -61,42 +61,50 @@ Simple websites to explore Web Development with Ruby
 
 ## Basics
 * Hello World
-  * `sinatra_hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
+  * `hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
     * Get a basic sinatra webapp running
 * HTML template tools
-  * `sinatra_template` Serve erb templates
+  * `template` Serve erb templates
     * Use erb templates with sinatra
-
-## Web Stuff
 * CSS
-  * `sinatra_bootstrap` Serve erb templates with twitter bootstrap
+  * `bootstrap` Serve erb templates with twitter bootstrap
     * Use erb templates with css and js assets
 * Forms
-  * `sinatra_form`
+  * `form`
     * Handle simple form behavior with sinatra
-
-## Next Level
-* Dates and Times
-  * `sinatra_friday` "Is it friday yet?" website clone
-    * Use some Ruby date functions in a sinatra site
 * Using libraries
-  * `sinatra_quotes`
+  * `sentence_diff`
+    * Use a library to calculate a diff between two strings of text
+  * `quotes`
     * Use the `i_heart_quotes` gem to display a random "quote of the day" page
-* Hosting
-  * `sinatra_hello_heroku`
-    * Deploy a simple sinatra app to a real web server
-* API Calls and image tags
-  * `sinatra_gallery`
-    * show a gif found on giphy
-* URL shortener
-  * `sinatra_url_shortener`
-    * Make some custom URL shorteners
 
-## Under Development :-)
-* Making image memes using imagemagick
+## Intermediate
+* Dates and Times
+  * `friday` "Is it friday yet?" website clone
+    * Use some Ruby date functions in a sinatra site
+* Hosting
+  * `hello_heroku`
+    * Deploy a simple sinatra app to a real web server
+* CSVs
+  * `csv_uploader`
+    * Upload a CSV and display the data in a table
+
+## Next Level Ish
+* Working with ruby hashes
+  * `dictionary`
+    * allow a user to input words and definitions into a memory backed dictionary
+* API Calls and image tags
+  * `gallery`
+    * show a set of gifs found on giphy
+  * `pokemon`
+    * show data about pokemon using PokeAPI
+* URL shortener
+  * `url_shortener`
+    * Make some custom URL shorteners
 
 # How can I help?
 * Take some of the boilerplate samples (`templates`, etc.) and make some new projects we can add to our portfolio
+* Take a look at our `TODO.md` file where we've collected a ton of raw ideas
 * Make some commits and a pull request! :-)
 
 # What if I run into issues?
