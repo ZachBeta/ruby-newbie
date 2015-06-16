@@ -1,13 +1,16 @@
+# Top of queue to build
+* Run an api that provides a timestamp and how many people asked for the api
+* Count occurances of a word, letters, phrases
+* Bill splitting and tip calculating
+
 # TO DO
 
 Beginner
-* Serve a CSV to a webpage
 * Manipulate a CSV
 * Blocks - Count to x
 * Blocks - Howdy! Howdy! Howdy! - find youtube link from toy story - [Woody's Hat - YouTube](http://www.youtube.com/watch?v=G-I3UXqDhIo)
 * Send CSV data as json
 * Image resizer using imagemagick
-* Input 2 text files, run a diff server side
 * Minimalist authentication - if name exists in "database" say hello to username
     as soon as they start running, hold that username in memory
 * UUID in the url
@@ -16,11 +19,8 @@ Intermediate
 * Authentication with actual hashing of password
     as soon as they start, collect a user name and password (hash password with some salt)
 * Actual ORM
-* Parse a CSV and display information in a table on a website
 
-
-# Ideas For More advanced websites
-
+Advanced
 * Parse multiple CSVs and join them in memory
   * read a csv (file upload, display the table)
   * output a csv (take some api data and put in a table)
@@ -52,19 +52,31 @@ Intermediate
 * Make your computer talk!
 * A form RSVP
 * Make something that's actually DB backed (SQLite)
-* Sending email
-* Sending texts
+* interact with SQLite or another minimalist database
+* Sending email - requires registering for something
+* Sending texts - requires registering for something
 * Tax calculator
 * Interest rate calculator
 * Bowling scorer
 * Fill in a field with a comma separated list of people (musical chairs) that picks one
-* Where should I go to lunch - hit yelp api, pick one
 * Read latest issue from SeeClickFix in my neighborhood: query neighborhood, query issue
-* tip calculator
-* check splitter
-* Pokemon api
-* Microblogging clone in memory
 * List some ingredients, have it pick a pizza or a sammich
 * turtle / kame - Turtle render in an image? (Forward, Turn 90, Forward, Turn 90, Forward, Turn 90, Forward : square)
 * https://github.com/benjaminoakes/pencil_mustache or something similar to show different templating styles.
-* visitor count
+* Where should I go to lunch - hit yelp api, pick one
+
+
+* Imagemagick
+    require 'RMagick'
+
+    # http://studio.imagemagick.org/RMagick/doc/
+    image = Magick::ImageList.new("Ruby_logo.png")
+    text = Magick::Draw.new
+    text.annotate(image, 0, 0, 0, 60, "<3 Ruby") {
+        self.gravity = Magick::SouthGravity
+        self.pointsize = 72
+        self.stroke = '#000000'
+        self.fill = '#FFFFFF'
+        self.font_weight = Magick::BoldWeight
+        }
+    image.write('Less_than_three.png')

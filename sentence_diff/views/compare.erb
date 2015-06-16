@@ -1,0 +1,9 @@
+<html>
+  <head>
+    <style><%= Diffy::CSS %></style>
+  </head>
+  <body>
+    <h1>Your diff is below :-)</h1>
+    <%= @diff.to_s(:html) %>
+  </body>
+</html>

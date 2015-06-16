@@ -1,0 +1,12 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Please Upload a CSV!</h1>
+    <p>Here's <a href="/example.csv">an example</a> if you need it</p>
+
+    <form action="/display_csv" method="POST" enctype="multipart/form-data">
+      <input type="file" name="file">
+      <input type="submit" value="Upload CSV">
+    </form>
+  </body>
+</html>

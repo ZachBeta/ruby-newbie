@@ -2,9 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     backports (3.6.4)
+    diffy (3.0.7)
     httparty (0.13.5)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
+    i_heart_quotes (0.2.1)
+      httparty
     json (1.8.3)
     multi_json (1.11.0)
     multi_xml (0.5.5)
@@ -13,6 +16,7 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rmagick (2.15.2)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -30,9 +34,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  diffy
   httparty
+  i_heart_quotes
+  rmagick
   sinatra
   sinatra-contrib
 
 BUNDLED WITH
-   1.10.2
+   1.10.3

@@ -1,0 +1,13 @@
+<html>
+  <body>
+    <h1><%= @name %></h1>
+    <img src="<%= @sprite_img_url %>">
+    <p>ID: <%= @id %></p>
+    <p>Types:</p>
+    <ul>
+      <% @types.each do |type| %>
+        <li><%= type %></li>
+      <% end %>
+    </ul>
+  </body>
+</html>
