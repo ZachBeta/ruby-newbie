@@ -1,5 +1,4 @@
 # Top of queue to build
-* Make an empty boilerplate that people can copy over to make more examples
 * Add newer projects to the readme
 * Erubis error
 

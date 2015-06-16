@@ -96,6 +96,7 @@ Simple websites to explore Web Development with Ruby
 * Making image memes using imagemagick
 
 # How can I help?
+* Take some of the boilerplate samples (`templates`, etc.) and make some new projects we can add to our portfolio
 * Make some commits and a pull request! :-)
 
 # What if I run into issues?
