@@ -5,8 +5,8 @@ require 'diffy'
 # Commands to run
 #
 #     bundle
-#     cd sinatra_sentence_diff
-#     ruby hello_world.rb -p $PORT -o $IP
+#     cd sentence_diff
+#     ruby sentence_diff.rb -p $PORT -o $IP
 #
 # Things to try:
 # * Have it compare two larger text boxes (improve the UI)

@@ -4,8 +4,8 @@ require 'sinatra/reloader' if development?
 # Commands to run
 #
 #     bundle
-#     cd sinatra_bootstrap
-#     ruby hello_world.rb -p $PORT -o $IP
+#     cd bootstrap
+#     ruby bootstrap.rb -p $PORT -o $IP
 #
 # Things you should explore:
 # * Go to the [Bootstrap](http://twitter.github.io/bootstrap/) documentation

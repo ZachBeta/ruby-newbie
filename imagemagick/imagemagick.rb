@@ -1,19 +1,11 @@
-# require 'sinatra'
-# require 'sinatra/reloader' if development?
+# TODO: This is a work in progress.
+# man_working.gif
 #
-# get '/' do
-#   erb :index
-# end
-#
-# get '/say_hello' do
-#   erb :say_hello
-# end
-
 # Commands to run
 #
 #     bundle
-#     cd sinatra_form
-#     ruby hello_world.rb -p $PORT -o $IP
+#     cd imagemagick
+#     ruby imagemagick.rb -p $PORT -o $IP
 #
 # Things to explore:
 # * Add more form fields

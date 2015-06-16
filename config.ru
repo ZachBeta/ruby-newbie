@@ -1,2 +1,2 @@
-require './sinatra_hello_heroku/hello_world'
+require './hello_heroku/hello_heroku'
 run Sinatra::Application

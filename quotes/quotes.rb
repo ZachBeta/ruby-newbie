@@ -5,8 +5,8 @@ require 'i_heart_quotes'
 # Commands to run
 #
 #     bundle
-#     cd sinatra_quotes
-#     ruby hello_world.rb -p $PORT -o $IP
+#     cd quotes
+#     ruby quotes.rb -p $PORT -o $IP
 #
 # Things to try:
 # * check the docs for [robertodecurnex/i_heart_quotes · GitHub](https://github.com/robertodecurnex/i_heart_quotes)

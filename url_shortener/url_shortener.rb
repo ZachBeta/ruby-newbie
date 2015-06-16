@@ -4,8 +4,8 @@ require 'sinatra/reloader' if development?
 # Commands to run
 #
 #     bundle
-#     cd sinatra_url_shortener
-#     ruby hello_world.rb -p $PORT -o $IP
+#     cd url_shortener
+#     ruby url_shortener.rb -p $PORT -o $IP
 #
 # Things to try
 # * Inserting more defaults

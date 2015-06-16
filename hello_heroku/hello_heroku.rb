@@ -4,8 +4,8 @@ require 'sinatra/reloader' if development?
 # Commands to run
 #
 #     bundle
-#     cd sinatra_hello_heroku
-#     ruby hello_world.rb -p $PORT -o $IP
+#     cd hello_heroku
+#     ruby hello_heroku.rb -p $PORT -o $IP
 #     heroku create
 #     git push heroku master
 #     heroku open

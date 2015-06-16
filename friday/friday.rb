@@ -4,7 +4,7 @@ require 'sinatra/reloader' if development?
 # Commands to run
 #
 #     bundle
-#     cd sinatra_friday
+#     cd friday
 #     ruby friday.rb -p $PORT -o $IP
 #
 # Things to try out:

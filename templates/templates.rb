@@ -4,8 +4,8 @@ require 'sinatra/reloader' if development?
 # Commands to run
 #
 #     bundle
-#     cd sinatra_templates
-#     ruby hello_world.rb -p $PORT -o $IP
+#     cd templates
+#     ruby templates.rb -p $PORT -o $IP
 #
 # Things to explore:
 # * Add some style sheets

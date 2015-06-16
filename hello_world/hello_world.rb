@@ -4,7 +4,7 @@ require 'sinatra/reloader' if development?
 # Commands to run
 #
 #     bundle
-#     cd sinatra_hello_world
+#     cd hello_world
 #     ruby hello_world.rb -p $PORT -o $IP
 #
 # Things to try
