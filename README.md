@@ -95,6 +95,9 @@ Simple websites to explore Web Development with Ruby
 ## Under Development :-)
 * Making image memes using imagemagick
 
+# How can I help?
+* Make some commits and a pull request! :-)
+
 # What if I run into issues?
 
 File a github issue :-)
