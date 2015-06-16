@@ -1,3 +1,8 @@
+# Cleanup
+* %s/sinatra_x/x/g
+* Rename /x/README.md /x/x_readme.md
+* Rename /x/hello_world.rb /x/x.rb
+
 # Top of queue to build
 * Input 2 text files, run a diff server side
 * Full crud for a techie dictionary (export a CSV)
