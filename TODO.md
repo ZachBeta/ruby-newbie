@@ -1,6 +1,8 @@
 # Top of queue to build
-* Pokemon api - put in a pokemon number and retrieve information- extend to also take in a name, provide more data
 * Full crud for a techie dictionary (export a CSV)
+* Make an empty boilerplate that people can copy over to make more examples
+* Add newer projects to the readme
+* Erubis error
 
 * Run an api that provides a timestamp and how many people asked for the api
 * Count occurances of a word, letters, phrases
@@ -67,3 +69,19 @@ Advanced
 * turtle / kame - Turtle render in an image? (Forward, Turn 90, Forward, Turn 90, Forward, Turn 90, Forward : square)
 * https://github.com/benjaminoakes/pencil_mustache or something similar to show different templating styles.
 * Where should I go to lunch - hit yelp api, pick one
+
+
+* Imagemagick
+    require 'RMagick'
+
+    # http://studio.imagemagick.org/RMagick/doc/
+    image = Magick::ImageList.new("Ruby_logo.png")
+    text = Magick::Draw.new
+    text.annotate(image, 0, 0, 0, 60, "<3 Ruby") {
+        self.gravity = Magick::SouthGravity
+        self.pointsize = 72
+        self.stroke = '#000000'
+        self.fill = '#FFFFFF'
+        self.font_weight = Magick::BoldWeight
+        }
+    image.write('Less_than_three.png')
