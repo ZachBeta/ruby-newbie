@@ -14,6 +14,7 @@ require 'sinatra/reloader' if development?
 # * Save the dictionary to a file (look up YAML in the ruby docs)
 # * Load the dictionary from a file
 # * Lock defaults from being overridden
+# * Make this RESTful (do not allow someone to add a word that exists, allow them to update instead, also allow them to delete a word)
 
 dictionary = {
   'streets ahead' => { :definition => "If you have to ask, you're streets behind." },
