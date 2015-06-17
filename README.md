@@ -11,8 +11,8 @@ We found that Ruby was pretty welcoming and provides some great tools to get
 started in web development.  It's also a beautiful language :-)
 
 We are using a tool called [Sinatra](http://www.sinatrarb.com/) for this
-exercise. It is, for our intents, effectively a stripped down version of [Ruby
-on Rails](http://guides.rubyonrails.org/getting_started.html)
+exercise. It is, for our intents, a stripped down version of [Ruby
+on Rails](http://guides.rubyonrails.org/getting_started.html).
 
 ## How do I get everything setup?
 
@@ -31,14 +31,18 @@ one.
 * Click on the `ruby-newbie` project that shows up in the left sidebar.
 * Click on the `start editing` button to open the workspace.
 
-You should now see directory structure on the left with various projects such as `sinatra_bootstrap` and `sinatra_hello_world`.  You can explore the projects by clicking on the various files and directories.
+You should now see directory structure on the left with various projects such
+as `hello_world` and `bootstrap`.  You can explore the projects by clicking on
+the various files and directories.
 For more information see the individual project sections below.
 
 ### ...Or install stuff on your machine
 
-If you are comfortable installing code on your own laptop. Follow the steps in this section
-to get a Ruby development environment running on your own machine.  This is an alternative
-to using the Cloud9 service described in the previous section.
+If you do not want to use Cloud9 and are comfortable installing code on your
+own laptop. Follow the steps in this section to get a Ruby development
+environment running on your own machine.  This is a strong alternative to using
+the Cloud9 service described in the previous section, but will take a lot more
+setup time.
 
   * Install Ruby on Rails based on this guide: [Install Rails | Your Guide for Installing Ruby on Rails](http://installrails.com/)
     * We will not be using Rails right now, but the setup is VERY similar.
@@ -48,16 +52,20 @@ to using the Cloud9 service described in the previous section.
 
 ## How do I run it?
 
-* Open up the readme of the project you want to run.
-* Each README will explain how to open and run the smaller applications.
-* From your terminal you can run: `cd sinatra_hello_world` to get your terminal into the correct directory.
-* When you want to terminate the application press `ctrl` and `c`. In the context of a terminal this is not "copy" like you may be used to.
-* When you want to navigate up a directory in your terminal you can type `cd ..`.
-* When you want to navigate back to your workspace type `cd ~/workspace`
+* Let's take for example `hello_world`...
+* Open up the directory and file in your editor: `hello_world/hello_world.rb`.
+* Notice that `hello_world.rb` will have instructions in the comment block to explain how to run it. We're going to walk through that here too.
+* From your terminal run: `cd hello_world` to get your terminal into the correct directory.
+* If you're using Cloud9, you can run the app with `ruby hello_world.rb -p $PORT -o $IP`. If you're not using Cloud9, you can skip the extra parameters and run with `ruby hello_world.rb`
+* Now you can open up the website. If you're using Cloud9 there will be a link shown that you can click. If you're not using Cloud9, you can find the app at `http://localhost:4567`
+* When you want to terminate the application, go to your terminal and press `ctrl` and `c`. In the context of a terminal this is not "copy" like you may be used to.
+* You can then navigate your terminal up a directory with: `cd ..` which will go up one directory, or `cd ~/workspace` which will go to your personal workspace directory.
+* Now you can follow the same pattern for each of the other micro apps.
+* Each app will also have some challenges to give you an idea of how you can change or improve the app and improve your familiarity with it.
 
-# Some Samples
+# The Micro Apps
 
-Simple websites to explore Web Development with Ruby
+Simple web apps to explore web development with Ruby:
 
 ## Basics
 * Hello World
@@ -102,13 +110,9 @@ Simple websites to explore Web Development with Ruby
   * `url_shortener`
     * Make some custom URL shorteners
 
-# How can I help?
-* Take some of the boilerplate samples (`templates`, etc.) and make some new projects we can add to our portfolio
-* Take a look at our `TODO.md` file where we've collected a ton of raw ideas
-* Make some commits and a pull request! :-)
-
-# What if I run into issues?
-
-File a github issue :-)
-
-There's some very common issues people run into that I'll be updating in this README as they arise.
+# How can I help? / What if I run into issues?
+* Fork the project, make some commits, and open a pull request! :-)
+* Take some of the boilerplate samples (`template` or `hello_world`, etc.) and make some new projects we can add to our portfolio
+* Take a look at our `TODO.md` file where we've collected a ton of raw ideas for improvements.
+* File an issue and give us some feedback on the apps, especially if you run into any trouble with them.
+* There's some very common issues people run into that we'll be updating in this README as they arise.
