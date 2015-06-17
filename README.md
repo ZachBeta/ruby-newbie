@@ -53,6 +53,7 @@ setup time.
 ## How do I run it?
 
 * Let's take for example `hello_world`...
+* Before anything else you'll need to get the right libraries installed for ruby. You can do this by running `bundle` in your terminal
 * Open up the directory and file in your editor: `hello_world/hello_world.rb`.
 * Notice that `hello_world.rb` will have instructions in the comment block to explain how to run it. We're going to walk through that here too.
 * From your terminal run: `cd hello_world` to get your terminal into the correct directory.
