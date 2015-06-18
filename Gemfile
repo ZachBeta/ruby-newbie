@@ -12,7 +12,7 @@ gem 'httparty'
 gem 'diffy'
 
 # We're using this for image manipulation
-gem 'rmagick'
+# gem 'rmagick'
 
 # We're using this for pulling random quotes from a gem
 gem 'i_heart_quotes'
