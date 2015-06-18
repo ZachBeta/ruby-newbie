@@ -60,7 +60,7 @@ setup time.
 * If you're using Cloud9, you can run the app with `ruby hello_world.rb -p $PORT -o $IP`. If you're not using Cloud9, you can skip the extra parameters and run with `ruby hello_world.rb`
 * Now you can open up the website. If you're using Cloud9 there will be a link shown that you can click. If you're not using Cloud9, you can find the app at `http://localhost:4567`
 * When you want to terminate the application, go to your terminal and press `ctrl` and `c`. In the context of a terminal this is not "copy" like you may be used to.
-* You can then navigate your terminal up a directory with: `cd ..` which will go up one directory, or `cd ~/workspace` which will go to your personal workspace directory.
+* You can then navigate your terminal back to the main directory with: `cd ..` will go up one directory, or `cd ~/workspace` which will go to your personal workspace directory.
 * Now you can follow the same pattern for each of the other micro apps.
 * Each app will also have some challenges to give you an idea of how you can change or improve the app and improve your familiarity with it.
 

@@ -10,6 +10,7 @@ require 'csv'
 #
 # Things to explore:
 # * Extract the inline styles into a stylesheet
+# * Have the page handle multiple CSVs
 
 get '/' do
   erb :index

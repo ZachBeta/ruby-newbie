@@ -9,8 +9,11 @@ require 'sinatra/reloader' if development?
 #
 # Things to try
 # * Inserting more defaults
-# * Input a full url and dynamically add it to the shortener (increment a number or an alphanumeric string for the key)
-# * List all the possible shorteners on the index page
+# * Allow a user to input a full url and give them a random key like bit.ly does (try a number)
+#   * Try using an alphanumeric string for the key
+# * Allow a user to input a full url and a key
+# * Keep track of how many people accessed each url (try nesting a hash underneath the key)
+# * List all the possible shortened urls as links on the index page (a link to "/blog", etc.)
 
 
 urls = {

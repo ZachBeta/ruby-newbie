@@ -16,11 +16,11 @@ require 'sinatra/reloader' if development?
 #
 # Things to try:
 # * make some changes, commit them, and push them to Heroku
-# * try pulling in ideas from other `ruby_newbie` projects
+# * try changing `config.ru` to run a different micro app on Heroku
 # * have the page display "Howdy!"
 # * have the page display the time
 # * have the page display a formatted time
 
 get '/' do
-  "Sup?"
+  "Why hello... internet."
 end
