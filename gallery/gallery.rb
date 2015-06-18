@@ -11,6 +11,9 @@ require 'httparty'
 # Things to try
 # * change the query to try another search term
 # * limit the number of images displayed
+# * display original gifs instead of the fixed_height version
+# * display a thumbnail with a link to the giphy url
+# * display other information listed in the [Giphy API docs](https://github.com/Giphy/GiphyAPI) such as a caption or the source
 
 get '/' do
   response = HTTParty.get("http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q=funny+cat")
