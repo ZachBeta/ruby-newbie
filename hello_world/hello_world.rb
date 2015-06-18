@@ -13,5 +13,5 @@ require 'sinatra/reloader' if development?
 # * have the page display a formatted time
 
 get '/' do
-  "Sup?"
+  "Hello World! Welcome to Ruby!"
 end
