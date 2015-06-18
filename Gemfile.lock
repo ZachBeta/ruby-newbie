@@ -16,7 +16,6 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rmagick (2.15.2)
     sinatra (1.4.6)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -37,7 +36,6 @@ DEPENDENCIES
   diffy
   httparty
   i_heart_quotes
-  rmagick
   sinatra
   sinatra-contrib
 
