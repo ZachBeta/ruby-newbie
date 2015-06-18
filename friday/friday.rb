@@ -8,7 +8,9 @@ require 'sinatra/reloader' if development?
 #     ruby friday.rb -p $PORT -o $IP
 #
 # Things to try out:
+# * Add some "fuzzy" date math ("Almost", "Just missed it", etc.)
 # * Add more urls to test for each day of the week
+# * Embed a youtube video related to the days of the week
 
 get '/' do
   "Is it friday? #{Time.now.friday?}"
