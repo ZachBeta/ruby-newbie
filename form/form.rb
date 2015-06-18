@@ -9,6 +9,8 @@ require 'sinatra/reloader' if development?
 #
 # Things to explore:
 # * Add more form fields
+# * Add form validation
+# * Change to a form that allows file uploads
 
 get '/' do
   erb :index
