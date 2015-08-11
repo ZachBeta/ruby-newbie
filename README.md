@@ -84,19 +84,17 @@ Simple web apps to explore web development with Ruby:
 * Using libraries
   * `sentence_diff`
     * Use a library to calculate a diff between two strings of text
-  * `quotes`
-    * Use the `i_heart_quotes` gem to display a random "quote of the day" page
 
 ## Intermediate
-* Dates and Times
-  * `friday` "Is it friday yet?" website clone
-    * Use some Ruby date functions in a sinatra site
 * Hosting
   * `hello_heroku`
     * Deploy a simple sinatra app to a real web server
 * CSVs
   * `csv_uploader`
     * Upload a CSV and display the data in a table
+* Dates and Times
+  * `friday` "Is it friday yet?" website clone
+    * Use some Ruby date functions in a sinatra site
 
 ## Next Level Ish
 * Working with ruby hashes

@@ -67,6 +67,7 @@ Advanced
 
 
 * Imagemagick
+```
     require 'RMagick'
 
     # http://studio.imagemagick.org/RMagick/doc/
@@ -80,3 +81,4 @@ Advanced
         self.font_weight = Magick::BoldWeight
         }
     image.write('Less_than_three.png')
+```
