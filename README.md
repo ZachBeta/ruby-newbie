@@ -52,14 +52,24 @@ setup time.
 
 ## How do I run it?
 
-* Let's take for example `hello_world`...
-* Before anything else you'll need to get the right libraries installed for ruby. You can do this by running `bundle` in your terminal
-* Open up the directory and file in your editor: `hello_world/hello_world.rb`.
-* Notice that `hello_world.rb` will have instructions in the comment block to explain how to run it. We're going to walk through that here too.
-* From your terminal run: `cd hello_world` to get your terminal into the correct directory.
-* If you're using Cloud9, you can run the app with `ruby hello_world.rb -p $PORT -o $IP`. If you're not using Cloud9, you can skip the extra parameters and run with `ruby hello_world.rb`
-* Now you can open up the website. If you're using Cloud9 there will be a link shown that you can click. If you're not using Cloud9, you can find the app at `http://localhost:4567`
-* When you want to terminate the application, go to your terminal and press `ctrl` and `c`. In the context of a terminal this is not "copy" like you may be used to.
+Let's run our simplest example `hello_world` :D
+
+* Install libraries
+  * Type into the terminal: `bundle`
+  * Ruby uses libraries. A library is a packages of other people's code that helps you do common things you want to do. One specific one we'll use is `sinatra`, which can help you make your ruby code talk to a browser like Chrome.
+* Open the file:
+  * Open the folder `hello_world` in the folder list on the left
+  * Open `hello_world.rb` from there, and it will open in your editor pane.
+* Run the code!
+  * `hello_world.rb` will has instructions at the top of the file explaining how to run it; we'll explain that here too.
+  * Our instructions
+    * From your terminal run: `cd hello_world` to get your terminal into the correct directory. If you type `pwd` and it tells you something that contains `hello_world/`, you're in!
+    * From your terminal run:`ruby hello_world.rb -p $PORT -o $IP` (if you're not using Cloud9, run `ruby hello_world.rb` instead)
+    * The terminal pane running the server will behave differently from how the terminal did before
+      * it will list out a lot of information telling you what the server is doing
+      * when you want to shut down the server go to your terminal and press `ctrl` and `c`. In the context of a terminal this is not `copy` like you may be used to, it stands for `close`.
+* View the website
+  * If you're using Cloud9 there will be a link shown that you can click. (If you're not using Cloud9, you can go to `http://localhost:4567` in your browser)
 * You can then navigate your terminal back to the main directory with: `cd ..` will go up one directory, or `cd ~/workspace` which will go to your personal workspace directory.
 * Now you can follow the same pattern for each of the other micro apps.
 * Each app will also have some challenges to give you an idea of how you can change or improve the app and improve your familiarity with it.
