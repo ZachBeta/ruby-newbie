@@ -27,6 +27,7 @@ one.
 * On your dashboard `CREATE A NEW WORKSPACE`
 * Fill in `Workspace name` with `ruby-newbie`
 * Fill in `Clone from Git or Mercurial URL` with `https://github.com/ZachBeta/ruby-newbie`
+* Click the `Custom` project
 * Click `Create`
 * Click on the `ruby-newbie` project that shows up in the left sidebar.
 
