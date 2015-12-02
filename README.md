@@ -25,8 +25,8 @@ one.
 
 * Set up a Cloud9 Account: [Cloud9 - Your development environment, in the cloud](https://c9.io/)
 * On your dashboard `CREATE A NEW WORKSPACE`
-* Click on `Clone from URL`
-* Paste this url into the `Source URL` field: `https://github.com/ZachBeta/ruby-newbie`
+* Fill in `Workspace name` with `ruby-newbie`
+* Fill in `Clone from Git or Mercurial URL` with `https://github.com/ZachBeta/ruby-newbie`
 * Click `Create`
 * Click on the `ruby-newbie` project that shows up in the left sidebar.
 * Click on the `start editing` button to open the workspace.
