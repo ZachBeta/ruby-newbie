@@ -57,7 +57,9 @@ setup time.
 * Open up the directory and file in your editor: `hello_world/hello_world.rb`.
 * Notice that `hello_world.rb` will have instructions in the comment block to explain how to run it. We're going to walk through that here too.
 * From your terminal run: `cd hello_world` to get your terminal into the correct directory.
-* If you're using Cloud9, you can run the app with `ruby hello_world.rb -p $PORT -o $IP`. If you're not using Cloud9, you can skip the extra parameters and run with `ruby hello_world.rb`
+* Run the app
+  * Using Cloud9 - type in the terminal: `ruby hello_world.rb -p $PORT -o $IP`.
+  * Not using Cloud9 - type in the terminal: `ruby hello_world.rb`
 * Now you can open up the website. If you're using Cloud9 there will be a link shown that you can click. If you're not using Cloud9, you can find the app at `http://localhost:4567`
 * When you want to terminate the application, go to your terminal and press `ctrl` and `c`. In the context of a terminal this is not "copy" like you may be used to.
 * You can then navigate your terminal back to the main directory with: `cd ..` will go up one directory, or `cd ~/workspace` which will go to your personal workspace directory.
