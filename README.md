@@ -29,7 +29,6 @@ one.
 * Fill in `Clone from Git or Mercurial URL` with `https://github.com/ZachBeta/ruby-newbie`
 * Click `Create`
 * Click on the `ruby-newbie` project that shows up in the left sidebar.
-* Click on the `start editing` button to open the workspace.
 
 You should now see directory structure on the left with various projects such
 as `hello_world` and `bootstrap`.  You can explore the projects by clicking on
