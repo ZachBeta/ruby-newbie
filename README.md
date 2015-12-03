@@ -70,9 +70,11 @@ Let's run our simplest example `hello_world` :D
       * when you want to shut down the server go to your terminal and press `ctrl` and `c`. In the context of a terminal this is not `copy` like you may be used to, it stands for `close`.
 * View the website
   * If you're using Cloud9 there will be a link shown that you can click. (If you're not using Cloud9, you can go to `http://localhost:4567` in your browser)
-* You can then navigate your terminal back to the main directory with: `cd ..` will go up one directory, or `cd ~/workspace` which will go to your personal workspace directory.
-* Now you can follow the same pattern for each of the other micro apps.
-* Each app will also have some challenges to give you an idea of how you can change or improve the app and improve your familiarity with it.
+* Do the same for another micro app
+  * Shut down your ruby server with `ctrl` + `c`
+  * Navigate back to the main directory `~/workspace`. You can use `cd ..` to go up one directory or `cd ~/workspace` to go there directly.
+  * `cd` into another folder, and try to run it like you did above
+  * Each app will also have some challenges to give you an idea of how you can change or improve the app and improve your familiarity with it.
 
 # The Micro Apps
 
