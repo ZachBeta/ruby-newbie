@@ -57,6 +57,9 @@ Let's run our simplest example `hello_world` :D
 * Install libraries
   * Type into the terminal: `bundle`
   * Ruby uses libraries. A library is a packages of other people's code that helps you do common things you want to do. One specific one we'll use is `sinatra`, which can help you make your ruby code talk to a browser like Chrome.
+  * You won't have to `bundle` again for a while. It installed each of these "libraries" on your "workspace" like you might install an "app" on your "computer, and they'll stay there forever. You might use `bundler` eventually when you want to install another "library" or update a "library".
+  * `library` ~= `package`
+  * `workspace` ~= the tiny computer Cloud 9 gives you, with some files in some folders ("directories"), and it can run your ruby app.
 * Open the file:
   * Open the folder `hello_world` in the folder list on the left
   * Open `hello_world.rb` from there, and it will open in your editor pane.
@@ -73,14 +76,14 @@ Let's run our simplest example `hello_world` :D
 * Do the same for another micro app
   * Shut down your ruby server with `ctrl` + `c`
   * Navigate back to the main directory `~/workspace`. You can use `cd ..` to go up one directory or `cd ~/workspace` to go there directly.
-  * `cd` into another folder, and try to run it like you did above
+  * `cd` into another folder, and try to run it like you did above (you don't need to `bundle` again)
   * Each app will also have some challenges to give you an idea of how you can change or improve the app and improve your familiarity with it.
 
 # The Micro Apps
 
 Simple web apps to explore web development with Ruby:
 
-## Basics
+## Basics MicroApps
 * Hello World
   * `hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
     * Get a basic sinatra webapp running
@@ -97,7 +100,7 @@ Simple web apps to explore web development with Ruby:
   * `sentence_diff`
     * Use a library to calculate a diff between two strings of text
 
-## Intermediate
+## Intermediate MicroApps
 * Hosting
   * `hello_heroku`
     * Deploy a simple sinatra app to a real web server
@@ -108,7 +111,7 @@ Simple web apps to explore web development with Ruby:
   * `friday` "Is it friday yet?" website clone
     * Use some Ruby date functions in a sinatra site
 
-## Next Level Ish
+## Next Level Ish MicroApps
 * Working with ruby hashes
   * `dictionary`
     * allow a user to input words and definitions into a memory backed dictionary
