@@ -83,7 +83,7 @@ Let's run our simplest example `hello_world` :D
 
 Simple web apps to explore web development with Ruby:
 
-## Basics MicroApps
+## Basic MicroApps
 * Hello World
   * `hello_world` Hello World website in [Sinatra](http://www.sinatrarb.com/intro.html)
     * Get a basic sinatra webapp running
@@ -111,7 +111,7 @@ Simple web apps to explore web development with Ruby:
   * `friday` "Is it friday yet?" website clone
     * Use some Ruby date functions in a sinatra site
 
-## Next Level Ish MicroApps
+## Next Level-ish MicroApps
 * Working with ruby hashes
   * `dictionary`
     * allow a user to input words and definitions into a memory backed dictionary
